@@ -19,3 +19,22 @@ keeping inhgerited widgest at the top can cost security...be carefull
 
 
 in providers use proxyprovider for already initisialezd models...
+
+
+while using scoped models:
+--> remember to use abstract classes to make multiple models eg
+```
+class Counter Extends Model{
+int count=0;
+abstract class CountAdd extends Counter{
+//void incrementfunc()..
+}}
+ &&finally add 
+class BundledClass extends Model with Counter,CountAdd{};
+refer this in SCOPEDpacakge use
+
+
+
+
+
+```
