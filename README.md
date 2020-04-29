@@ -38,3 +38,7 @@ refer this in SCOPEDpacakge use
 
 
 ```
+
+use slivers for beautiful designs
+
+also wrap scaffold body or scaffold in safeArea
